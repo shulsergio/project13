@@ -1,0 +1,128 @@
+.section-reviews {
+    font-family: "Inter Tight", sans-serif;
+}
+
+.container-reviews {
+    padding: 80px 20px;
+    width: 375px;
+    background: #fbfbfb;
+    margin: 0 auto;
+}
+
+.title-second-color {
+    color: #576f35;
+}
+
+.title-reviews {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+}
+
+.description-reviews {
+    margin: 20px 0 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    color: #141414;
+}
+
+.customers-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.customers-item {
+    border: 1px solid rgba(122, 49, 69, 0.3);
+    border-radius: 24px;
+    padding: 20px 16px 38px;
+    width: 335px;
+}
+
+.victoria-hidden {
+    display: none;
+}
+
+.ihor-hidden {
+    display: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.name-customers {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #040306;
+}
+
+.customers-description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    text-align: center;
+    color: rgba(4, 3, 6, 0.4);
+}
+
+@media only screen and (min-width: 768px) {
+.container-reviews {
+        padding: 100px 32px;
+        width: 768px;
+    }
+
+.victoria-hidden {
+        display: unset;
+    }
+
+.customers-list {
+        flex-direction: row;
+        gap: 18px;
+    }
+
+.title-reviews {
+        width: 553px;
+    }
+
+.description-reviews {
+    margin: 25px 0 50px;    
+    width: 553px;
+        font-size: 14px;
+        line-height: 1.25;
+    }
+
+.title-reviews {
+        font-size: 64px;
+        line-height: 1;
+    }
+
+    .name-customers {
+        font-size: 18px;
+        line-height: 1.1;
+    }
+    .customers-description {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+}
+@media only screen and (min-width: 1280px) {
+.container-reviews {
+    width: 1280px;
+    padding: 100px;
+}
+.customers-list {
+    gap: 25px;
+}
+.ihor-hidden {
+    display: unset;
+}
+}

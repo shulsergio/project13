@@ -1,0 +1,142 @@
+.container {
+}
+.header-container {
+    background-color: #576F35;  
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: start;
+    gap: 4px;
+}
+
+.logo-link {
+}
+
+.logo-icon-p1 {
+    width: 16px;
+height: 16px;
+
+fill:#FBFBFB;
+}
+
+.logo-icon-p2 {
+    width: 146px;
+height: 12px;
+
+fill:#FBFBFB;
+}
+
+.menu-btn {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.menu-icon {
+    width: 32px;
+    height: 32px;
+    fill:#FBFBFB;
+}
+/* ---dropmenu---- */
+.drop-menu {
+    background-color: #7A3145;
+    width: 375px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    opacity: 0;
+    pointer-events: none;
+}
+
+.drop-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    cursor: pointer;
+    width: 16px;
+    height: 32px;
+}
+
+.close-icon {
+    fill:#FBFBFB;
+}
+
+.navigation {
+}
+
+.navigation-list {
+     
+}
+
+.navigation-item {
+    margin-bottom: 8px;
+}
+.navigation-item-btn {
+    border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+
+    padding: 12px 16px;
+
+    min-width: 115px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+    background-color: transparent;
+    color: #FBFBFB;
+    }
+
+.navigation-item-btn:hover, 
+.navigation-item-btn:focus {
+    background-color: #FBFBFB;
+    color: #7A3145;
+}
+
+.menu-btn-shop {
+    border-radius: 30px;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+
+    min-width: 155px;
+    min-height: 50px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #FBFBFB;
+    background-color: transparent;
+
+    display: block;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.menu-btn-shop:hover,
+.menu-btn-shop:focus {
+    color: #7A3145;
+    background-color: #FBFBFB;
+}

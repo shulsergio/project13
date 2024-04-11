@@ -63,3 +63,14 @@
     padding: 12px 27px 12px 24px;
     background-color: #fbfbfb;
 }
+
+.steps-list-namber{
+    width: 52px;
+    height: 52px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    border-radius: 100%;
+    justify-content: center;
+}

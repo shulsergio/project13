@@ -5,21 +5,23 @@
 
 .steps-container{
     width: 100%;
-}
+    }
 
-.steps-title{
+.steps-title-container{
     width: 100%;
     padding: 40px 20px;
-    margin: 0 auto;
     background-color: #7A3145;
 }
 
-.steps-title img{
+.steps-title{
     height: 450px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
     border: none;
     border-radius: 30px;
-    color: rgba(20, 20, 20, 0.3);
-    object-fit: cover;
+    background-size: cover;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)), url(../img/img-steps/Rectangle1x.jpg);
 }
 
 .steps-text-background{

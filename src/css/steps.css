@@ -40,7 +40,7 @@
 .steps-text-text{
     font-weight: 500;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 129%;
 }
 
 .steps-text{
@@ -75,4 +75,13 @@
 .steps-list-namber-list{
     margin-left: 24px;
     align-content: center;
+}
+
+.span-steps-text-title{
+    color: rgba(251, 251, 251, 0.3);
+}
+
+.span-steps-list-namber-list{
+    font-weight: 700;
+    color: #141414;
 }

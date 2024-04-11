@@ -88,7 +88,9 @@ img {
         flex-direction: row;
         gap: 18px;
     }
-
+    .customers-item {
+        width: 343px;
+    }
 .title-reviews {
         width: 553px;
     }

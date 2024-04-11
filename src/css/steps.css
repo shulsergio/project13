@@ -8,15 +8,18 @@
 }
 
 .steps-title{
+    width: 100%;
     padding: 40px 20px;
     margin: 0 auto;
     background-color: #7A3145;
 }
 
-.steps-title-img{
+.steps-title img{
+    height: 450px;
     border: none;
     border-radius: 30px;
     color: rgba(20, 20, 20, 0.3);
+    object-fit: cover;
 }
 
 .steps-text-background{
@@ -53,6 +56,11 @@
     gap: 20px;
 }
 
+.container-steps-list{
+    display: flex;
+    flex-direction: row;
+}
+
 .steps-list-text{
     font-weight: 500;
     font-size: 12px;
@@ -64,13 +72,7 @@
     background-color: #fbfbfb;
 }
 
-.steps-list-namber{
-    width: 52px;
-    height: 52px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
-    border-radius: 100%;
-    justify-content: center;
+.steps-list-namber-list{
+    margin-left: 24px;
+    align-content: center;
 }

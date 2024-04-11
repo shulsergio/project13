@@ -67,13 +67,18 @@
 .vegetables-image {
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .vegetables-items:not(:last-child) {
     margin-bottom: 20px;
   }
 }
 
 @media only screen and (min-width: 768px) {
+  .vegetables {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .vegetables-title {
     font-size: 64px;
     line-height: 1;
@@ -83,12 +88,18 @@
   .vegetables-span {
     font-size: 64px;
     line-height: 1;
+    padding-bottom: 50px;
   }
 
   .vegetables-text {
     font-size: 16px;
     line-height: 1.25;
     max-width: 626px;
+    padding-bottom: 50px;
+  }
+
+  .vegetables-subtext {
+    padding-bottom: 10px;
   }
 
   .vegetables-list {
@@ -104,4 +115,16 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .vegetables-span {
+    padding-bottom: 25px;
+  }
+
+  .vegetables-list {
+    gap: 28px 21px;
+  }
+
+  .vegetables-items {
+    max-width: 346px;
+    width: calc((100% - 2 * 21px) / 3);
+  }
 }

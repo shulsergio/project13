@@ -1,0 +1,16 @@
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="icon-burger-big" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="3.2" d="M5.333 8h21.333M5.333 16H16M5.333 24h21.333"/>
+    </symbol>
+    <symbol id="icon-close-tab" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="3.2" d="M24 8 8 24M8 8l16 16"/>
+    </symbol>
+    <symbol id="icon-burger-small" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="3" d="M5.333 8h21.333M5.333 16H16M5.333 24h21.333"/>
+    </symbol>
+    <symbol id="icon-close-mob" viewBox="0 0 21 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2" d="M16 5.333 5.333 16M5.333 16 16 26.667"/>
+    </symbol>
+  </defs>
+</svg>

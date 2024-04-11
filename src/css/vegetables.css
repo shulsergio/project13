@@ -34,9 +34,6 @@
   padding-bottom: 40px;
 }
 
-.vegetables-list {
-}
-
 .vegetables-items {
   border-radius: 40px;
   padding: 32px 26px;
@@ -62,9 +59,6 @@
   text-transform: uppercase;
   color: #141414;
   padding-bottom: 14px;
-}
-
-.vegetables-image {
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {

@@ -24,6 +24,19 @@
     background-image: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)), url(../img/img-steps/Rectangle1x.jpg);
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .steps-text-background{
     background-color: #576F35;
     padding: 80px 20px;

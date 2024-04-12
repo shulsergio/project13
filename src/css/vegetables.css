@@ -1,0 +1,124 @@
+.vegetables {
+  background-color: #7a3145;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.vegetables-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+}
+
+.vegetables-span {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: rgba(251, 251, 251, 0.3);
+  padding-bottom: 20px;
+}
+
+.vegetables-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fbfbfb;
+  max-width: 335px;
+  padding-bottom: 40px;
+}
+
+.vegetables-items {
+  border-radius: 40px;
+  padding: 32px 26px;
+  max-width: 334px;
+  height: 379px;
+  background-color: #fbfbfb;
+}
+
+.vegetables-subtitle {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #7a3145;
+  padding-bottom: 12px;
+}
+
+.vegetables-subtext {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  padding-bottom: 14px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .vegetables-items:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .vegetables {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .vegetables-title {
+    font-size: 64px;
+    line-height: 1;
+    max-width: 508px;
+  }
+
+  .vegetables-span {
+    font-size: 64px;
+    line-height: 1;
+    padding-bottom: 50px;
+  }
+
+  .vegetables-text {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 626px;
+    padding-bottom: 50px;
+  }
+
+  .vegetables-subtext {
+    padding-bottom: 10px;
+  }
+
+  .vegetables-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px 20px;
+  }
+
+  .vegetables-items {
+    max-width: 342px;
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .vegetables-span {
+    padding-bottom: 25px;
+  }
+
+  .vegetables-list {
+    gap: 28px 21px;
+  }
+
+  .vegetables-items {
+    max-width: 346px;
+    width: calc((100% - 2 * 21px) / 3);
+  }
+}

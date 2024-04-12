@@ -1,0 +1,102 @@
+.section-steps{
+    max-width: 320px;
+    min-width: 375px;
+}
+
+.steps-container{
+    width: 100%;
+    }
+
+.steps-title-container{
+    width: 100%;
+    padding: 40px 20px;
+    background-color: #7A3145;
+}
+
+.steps-title{
+    height: 450px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 30px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)), url(../img/img-steps/Rectangle1x.jpg);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.steps-text-background{
+    background-color: #576F35;
+    padding: 80px 20px;
+}
+
+.steps-text-title{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    margin-bottom: 20px;
+}
+
+.steps-text-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+}
+
+.steps-text{
+    margin-bottom: 40px;
+}
+
+.steps-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.container-steps-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.steps-list-text{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.6);   
+    border-radius: 15px;
+    padding: 12px 27px 12px 24px;
+    background-color: #fbfbfb;
+}
+
+.steps-list-namber-list{
+    margin-left: 24px;
+    align-content: center;
+}
+
+.span-steps-text-title{
+    color: rgba(251, 251, 251, 0.3);
+}
+
+.span-steps-list-namber-list{
+    font-weight: 700;
+    color: #141414;
+}

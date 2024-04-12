@@ -55,6 +55,10 @@
     margin-bottom: 20px;
 }
 
+.span-steps-text-title{
+    color: rgba(251, 251, 251, 0.3);
+}
+
 .steps-text-text{
     font-weight: 500;
     font-size: 14px;
@@ -99,35 +103,38 @@
     align-content: center;
 }
 
-.span-steps-text-title{
-    color: rgba(251, 251, 251, 0.3);
-}
-
 .span-steps-list-number-list{
     font-weight: 700;
     color: #141414;
 }
 
 /* steps tab */
-
-@media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 1280px){
     .section-steps{
-        min-width: 768px;
+    min-width: 768px;
+    height: 1539px;
 }
+
+.steps-container{
+    width: 100%;
+    height: 840px;
+}
+
 
 /* container one */
 .steps-title-container{
     width: 100%;
+    height: 100%;
     padding: 100px 64px;
+}
+
+.steps-title{
+    height: 100%;
 }
 
 /* container two */
 .steps-text-background{
     padding: 100px 159px;
-}
-
-.steps-title{
-height: 640px;
 }
 
 .steps-text-title{
@@ -151,3 +158,52 @@ height: 640px;
 }
 
 /* steps desctop */
+@media (min-width: 1280px){
+    .section-steps{
+    min-width: 1280px;
+    height: 759px;
+}
+
+.steps-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+/* container one */
+.steps-title-container{
+    width: 630px;
+    padding: 100px;
+}
+
+.steps-title{
+    height: 100%;
+}
+
+/* container two */
+.steps-text-background{
+    width: 650px;
+    padding: 100px 100px 160px 100px;
+}
+
+.steps-text-title{
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.steps-text-text{
+    font-size: 16px;
+    line-height: 125%;
+}
+
+.steps-text{
+    margin-bottom: 50px;
+}
+
+.steps-list-number-list{
+    font-size: 16px;
+    line-height: 125%;
+
+}
+}

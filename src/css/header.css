@@ -38,6 +38,9 @@ fill:#FBFBFB;
 }
 
 .menu-btn {
+padding: 0;
+line-height: 0;
+ cursor: pointer;
     border: none;
     background-color: transparent;
 }
@@ -83,12 +86,13 @@ fill:#FBFBFB;
   }
 
 .close-btn {
+    background-color: transparent;
     position: absolute;
     top: 20px;
     right: 20px;
     border: none;
     cursor: pointer;
-    width: 16px;
+    width: 32px;
     height: 32px;
 }
 
@@ -244,9 +248,18 @@ fill:#FBFBFB;
 .close-big-btn {
     border: none;
     background-color: transparent;
+        position: absolute;
+        top: 32px;
+        right: 32px;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+
+
 }
 
 .close-icon-big {
+    fill: #FBFBFB;
     display: block;
 }
 

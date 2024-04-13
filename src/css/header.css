@@ -46,7 +46,7 @@ line-height: 0;
 }
 
 .menu-icon {
-    fill:#FBFBFB;
+    stroke:#FBFBFB;
 }
 
 /* ---dropmenu---- */
@@ -224,7 +224,7 @@ line-height: 0;
 }
 
 .menu-icon-big {
-    fill: #FBFBFB;
+    stroke: #FBFBFB;
 }
 
 .drop-menu {

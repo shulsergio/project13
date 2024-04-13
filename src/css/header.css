@@ -1,13 +1,18 @@
 .container {
+
 }
 
 .header-container {
-    background-color: #576F35;  
+    position: absolute;
+    width: 100%;
+    
     padding-top: 20px;
+    padding-bottom: 48px;
+    /* background-color: #576F35;   */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 48px;
+
 }
 
 .logo {
@@ -253,7 +258,7 @@ fill:#FBFBFB;
 
 @media screen and (min-width: 1280px) {
     .header-container {
-    padding: 32px 100px;
+    padding: 32px 100px 0;
 }
 
 .nav-btn {
@@ -279,16 +284,14 @@ margin-left: auto;
 }
 
 .nav-item {
-    margin-right: 20px;
+    /* margin-right: 20px; */
     margin-left: auto;
 }
 
 .nav-item-btn {
     border: 1px solid rgba(251, 251, 251, 0.4);
     border-radius: 12px;
-
     padding: 12px;
-
     min-width: 81px;
     font-weight: 500;
     font-size: 16px;
@@ -316,6 +319,7 @@ margin-left: auto;
 }
 
 .menu-btn-desk {
+
     border-radius: 30px;
     border: none;
 

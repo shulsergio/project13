@@ -71,6 +71,7 @@
     }
 
     .hero-text {
+        
         font-size: 16px;
         line-height: 1.25;
         max-width: 603px;
@@ -105,7 +106,10 @@
     }
 
     .hero-text {
-        max-width: 472px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    width: 472px;
     }
 
 

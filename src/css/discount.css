@@ -1,5 +1,5 @@
 .section-discount{
-        margin: 0 auto;
+
 }
 
 .discount-container {
@@ -7,7 +7,7 @@
     width: 375px;
     min-height: 469px;
     background-color: #fbfbfb;
-    margin: 0 auto;
+
    
 }
 .discount-green-container {
@@ -54,7 +54,7 @@
 .discount-container {
         min-width: 768px;
         min-height: 488px;
-            margin: 0 auto;
+
     }
    
         .text-discount {
@@ -77,7 +77,7 @@
 .discount-container {
     min-width: 1280px;
     min-height: 440px;
-        margin: 0 auto;
+
 }
     .text-discount {
 font-size: 76px;

@@ -3,11 +3,11 @@
 }
 
 .header-container {
-    position: absolute;
+    /* position: absolute;
     width: 100%;
-    
+     */
     padding-top: 20px;
-    padding-bottom: 48px;
+    /* padding-bottom: 48px; */
     /* background-color: #576F35;   */
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: start;
-    gap: 4px;
+    /* gap: 4px; */
 }
 
 .logo-link {
@@ -183,6 +183,10 @@ line-height: 0;
     background-color: #FBFBFB;
 }
 @media screen and (min-width: 320px) {
+    .header-container {
+
+    }
+    
     .logo-desk {
         display: none;
     }

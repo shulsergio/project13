@@ -95,8 +95,9 @@ padding-left: 16px;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 width: 100%;
 }
-.input_your_order:hover {
-  border-color: #7A3145;
+.input_your_order:hover,
+.input_your_order:focus {
+  border-color:#7A3145;
 }
 
 .input_your_order:not(:placeholder-shown):invalid {
@@ -125,6 +126,11 @@ padding-top: 14px;
 padding-left: 16px;
 height: 91px;
 margin-bottom: 20px;
+}
+.textaria_comment:hover,
+.textaria_comment:focus{
+    border-color: #7A3145;
+
 }
 .textaria_comment::placeholder{
     color: #141414;
@@ -259,6 +265,18 @@ margin-bottom: 25px;
     
   
 }
+.your_order_harvest{
+   
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -0.96px;
+    text-transform: uppercase;
+    line-height: 50px;
+    letter-spacing: -0.72px;
+    
+    }
 
 .your_order_text {
     color: #FBFBFB;
@@ -272,18 +290,6 @@ height: 60px;
 margin-bottom: 50px;
 }
 
-.your_order_harvest{
-   
-font-size: 64px;
-font-style: normal;
-font-weight: 600;
-line-height: 64px;
-letter-spacing: -0.96px;
-text-transform: uppercase;
-line-height: 50px;
-letter-spacing: -0.72px;
-
-}
 
 .form_container {
     border-radius: 30px;
@@ -378,5 +384,156 @@ flex-wrap: wrap;
     .container {
         max-width: 1280px;
         padding: 0 100px;
+    }
+    .your_order{
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+   }
+   .your_order_title{
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; 
+letter-spacing: -0.96px;
+text-transform: uppercase;
+width: 751px;
+margin-bottom: 25px;
+   }
+   .your_order_harvest{
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px;
+letter-spacing: -0.96px;
+text-transform: uppercase;
+   
+    }
+   .your_order_text {
+   
+    color: #FBFBFB;
+   font-size: 16px;
+line-height: 20px; 
+font-family: "Inter Tight", sans-serif;
+font-style: normal;
+font-weight: 500;
+width: 742px;
+margin-bottom: 50px;
+}
+   
+.form_container {
+  width: 529px;
+  height: 534px;
+  padding: 50px 50px;
+   }
+
+   .your_order_form_text {
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; 
+    letter-spacing: -0.36px;
+    text-transform: uppercase;
+    width: 428px;
+    gap: 50px;;
+   
+    }
+    .your_order_span_us{
+        
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+letter-spacing: -0.36px;
+text-transform: uppercase;
+
+    }
+    .your_order_span_the{
+        
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+    text-transform: uppercase;
+    }
+    .input_your_order{
+      
+    height: 52px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 429px;
+    margin-bottom: 25px;
+    }
+    .input_your_order::placeholder{
+      
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.32px;
+    }
+    .textaria_comment::placeholder{
+        color: #141414;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; 
+    letter-spacing: -0.28px;
+    
+    }
+    .textaria_comment::placeholder{
+      
+font-size: 16px;
+line-height: 20px; 
+letter-spacing: -0.32px;
+
+    }
+    .your_order_button{
+        
+width: 429px;
+padding: 16px 191px;
+margin-bottom: 0;
+
+    }
+
+    .your_order_container_social{
+        width: 527px;
+        height: 534px;
+        padding: 50px 50px;
+    }
+
+    .your_order_container_form{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+    .your_order_img {
+        margin-bottom: 50px;
+    }
+    .your_order_follow{
+      
+font-size: 18px;
+line-height: 20px; 
+letter-spacing: -0.27px;
+margin-bottom: 15px;
+    }
+    .your_order_items{
+        
+font-size: 32px;
+line-height: 32px; 
+letter-spacing: -0.48px;
+    }
+    .your_order_list {
+       
+    gap: 12px;
+   
+    }
+    .span_your_order{
+        margin-left: 12px;
     }
 }

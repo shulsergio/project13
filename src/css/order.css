@@ -145,8 +145,8 @@ letter-spacing: -0.28px;
 
 .your_order_button{
     display: flex;
-width: 320px;
-padding: 16px 129px;
+width:100%;
+padding: 16px;
 justify-content: center;
 align-items: center;
 gap: 10px;

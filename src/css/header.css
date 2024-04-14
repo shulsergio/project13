@@ -278,11 +278,13 @@ line-height: 0;
         position:absolute;
         top: 0;
         left: 0;
+        background-color: transparent;
+        max-width: 1280px;
+
         /* ------робити позиціонування до хеддера------- */
     /* background-color: transparent;
     max-width: 1280px;
     position: relative; /* Убедимся, что хедер находится в контексте позиционирования */
-    z-index: 1; */
     /* float:inline-end; */
 
     /* ------- для секції херо, якщо робити позиціонування відносно хеддера------ */

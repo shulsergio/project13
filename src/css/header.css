@@ -3,12 +3,12 @@
 }
 
 .header-container {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     
     padding-top: 20px;
-    padding-bottom: 48px;
-    /* background-color: #576F35;   */
+    /* padding-bottom: 48px; */
+    background-color: #576F35;  
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -210,7 +210,8 @@ line-height: 0;
 }
 
 .header-container {
-    padding: 32px 32px 50px;
+    /* padding: 32px 32px 50px; */
+    max-width: 768px;
 }
 
 
@@ -270,10 +271,31 @@ line-height: 0;
 }
 
 @media screen and (min-width: 1280px) {
+   .container {
+   }
+   
     .header-container {
-    padding: 32px 100px 0;
-}
+        position:absolute;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        max-width: 1280px;
 
+        /* ------робити позиціонування до хеддера------- */
+    /* background-color: transparent;
+    max-width: 1280px;
+    position: relative; /* Убедимся, что хедер находится в контексте позиционирования */
+    /* float:inline-end; */
+
+    /* ------- для секції херо, якщо робити позиціонування відносно хеддера------ */
+    /* position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    max-height: 100% */
+    /* box-sizing: border-box; */
+} 
+ 
 .nav-btn {
 display: flex;
 gap: 20px;

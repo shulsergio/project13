@@ -209,6 +209,8 @@ flex-wrap: wrap;
     .your_order{
         padding-top: 80px;
         padding-bottom: 80px;
+        width: 375px;
+        margin: 0 auto;
 
    }
    .your_order_text {
@@ -249,6 +251,8 @@ height: 465px;
     .your_order{
         padding-top: 100px;
         padding-bottom: 100px;
+        width: 768px;
+        margin: 0 auto;
 
    }
 
@@ -301,6 +305,7 @@ gap: 50px;
 height: 534px; 
 width: 628px;
 margin-bottom: 20px;
+margin: 0 auto;
 }
 .your_order_form_text {
 
@@ -336,7 +341,9 @@ align-items: center;
 padding: 50px 50px;
 width: 628px;
 height: 490px;;
+margin: 0 auto ;
 }
+
 .your_order_img {
     margin-bottom: 50px;
 }
@@ -370,6 +377,12 @@ align-content: flex-start;
 gap: 8px;
 flex-wrap: wrap;
 }
+.your_order_container_form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 
 
 
@@ -388,6 +401,8 @@ flex-wrap: wrap;
     .your_order{
         padding-top: 100px;
         padding-bottom: 100px;
+        width: 1280px;
+        margin: 0 auto;
 
    }
    .your_order_title{

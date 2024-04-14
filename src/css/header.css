@@ -3,12 +3,12 @@
 }
 
 .header-container {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     
     padding-top: 20px;
-    padding-bottom: 48px;
-    /* background-color: #576F35;   */
+    /* padding-bottom: 48px; */
+    background-color: #576F35;  
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -210,7 +210,8 @@ line-height: 0;
 }
 
 .header-container {
-    padding: 32px 32px 50px;
+    /* padding: 32px 32px 50px; */
+    max-width: 100%;
 }
 
 
@@ -270,10 +271,18 @@ line-height: 0;
 }
 
 @media screen and (min-width: 1280px) {
+   .container {
+   }
+   
     .header-container {
-    padding: 32px 100px 0;
-}
-
+        position:absolute;
+        top: 0;
+    background-color: transparent;
+    max-width: 100%;
+    max-width: 1280px;
+    box-sizing: border-box;
+   } 
+ 
 .nav-btn {
 display: flex;
 gap: 20px;

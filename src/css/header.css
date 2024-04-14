@@ -8,18 +8,12 @@
 }
 
 
-    /* position: absolute;
-    width: 100%;
-     */
-       /* padding-bottom: 48px; */
-    /* background-color: #576F35; 
-
 .logo {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: start;
-    /* gap: 4px; */
+    gap: 4px;
 }
 
 .logo-link {

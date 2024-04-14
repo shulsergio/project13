@@ -52,7 +52,7 @@
 
 @media screen and (min-width: 768px) {
 .discount-container {
-        width: 768px;
+        min-width: 768px;
         min-height: 488px;
             margin: 0 auto;
     }
@@ -75,7 +75,7 @@
 
 @media only screen and (min-width: 1280px) {
 .discount-container {
-    width: 1280px;
+    min-width: 1280px;
     min-height: 440px;
         margin: 0 auto;
 }

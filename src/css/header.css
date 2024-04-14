@@ -268,16 +268,8 @@ line-height: 0;
 @media screen and (min-width: 1280px) {
     .header-container {
         background-color: transparent;
-<<<<<<< Updated upstream
-        position: absolute;
-=======
         position: relative;
         width: 100%;
-        gap: 397px;
-        padding-top: 32px;
->>>>>>> Stashed changes
-
-    /* padding: 32px 100px 0; */
 }
 
 .logo-desk {

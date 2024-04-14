@@ -269,14 +269,23 @@ line-height: 0;
    
     .header-container {
         background-color: transparent;
-        position: absolute;
-    /* padding: 32px 100px 0; */
+        position: relative;
+        width: 100%;
+}
+
+.logo-desk {
+    position: absolute;
+    left: 100px;
+    top: 49px;
 }
 
 .nav-btn {
 display: flex;
 gap: 20px;
 margin-left: auto;
+position: absolute;
+top: 32px;
+left: 691px;
 }
 
 .menu-big-btn {

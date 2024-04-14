@@ -1,19 +1,18 @@
-.container {
-
-}
 
 .header-container {
-    /* position: absolute;
-    width: 100%;
-     */
     padding-top: 20px;
-    /* padding-bottom: 48px; */
-    /* background-color: #576F35;   */
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #576F35; 
 }
+
+
+    /* position: absolute;
+    width: 100%;
+     */
+       /* padding-bottom: 48px; */
+    /* background-color: #576F35; 
 
 .logo {
     display: flex;

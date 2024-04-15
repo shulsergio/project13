@@ -1,9 +1,7 @@
-
+.section-reviews{
+}
 
 .container-reviews {
-    padding: 80px 20px;
-    width: 375px;
-    margin: 0 auto;
 }
 
 .title-second-color {
@@ -72,8 +70,10 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
+    .section-reviews{
+
+    }
 .container-reviews {
-        padding: 100px 32px;
         width: 768px;
     }
 
@@ -114,9 +114,9 @@ img {
     }
 }
 @media only screen and (min-width: 1280px) {
+
 .container-reviews {
     width: 1280px;
-    padding: 100px;
 }
 .customers-list {
     gap: 25px;

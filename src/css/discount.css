@@ -53,7 +53,7 @@
 @media screen and (min-width: 768px) {
 .discount-container {
         min-width: 768px;
-        min-height: 488px;
+        /* min-height: 488px; */
 
     }
    
@@ -67,7 +67,7 @@
      .discount-green-container {
             width: 736px;
             height: 86px;
-            top: 100px;
+            /* top: 100px; */
             left: 16px;
     }
 }
@@ -76,7 +76,7 @@
 @media only screen and (min-width: 1280px) {
 .discount-container {
     min-width: 1280px;
-    min-height: 440px;
+    /* min-height: 440px; */
 
 }
     .text-discount {
@@ -86,8 +86,8 @@ padding: 0 0 0 13px;
 width: 1067px;
 }
     .discount-green-container {
-        width: 808px;
-      left: 100px;
+    width: 808px;
+    left: 100px;
 }
     .text-discount-green {
         display: inline;

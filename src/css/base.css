@@ -3,7 +3,10 @@ body {
     font-family: "Inter Tight", sans-serif;
     color: #fbfbfb;
 }
-
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
 .container {
     max-width: 320px;
@@ -19,6 +22,10 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+.section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
     .container {
         max-width: 768px;
         padding: 0 32px;
@@ -26,6 +33,11 @@ body {
 }
 
 @media only screen and (min-width: 1280px) {
+.section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
     .container {
         max-width: 1280px;
         padding: 0 100px;

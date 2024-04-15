@@ -208,9 +208,7 @@ flex-wrap: wrap;
 
 @media only screen and (min-width: 375px) and (max-width:767px) {
     .your_order{
-        padding-top: 80px;
-        padding-bottom: 80px;
-        width: 375px;
+    background-color: #7A3145;
         margin: 0 auto;
 
    }
@@ -247,12 +245,9 @@ height: 465px;
 @media only screen and (min-width: 768px) and (max-width:1279px) {
     .container {
         max-width: 768px;
-        padding-top: 0 32px;
     }
     .your_order{
-        padding-top: 100px;
-        padding-bottom: 100px;
-        width: 768px;
+    background-color: #7A3145;
         margin: 0 auto;
 
    }
@@ -395,17 +390,13 @@ flex-wrap: wrap;
 /* Desktop */
 
 @media only screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-        padding: 0 100px;
-    }
-    .your_order{
-        padding-top: 100px;
-        padding-bottom: 100px;
-        width: 1280px;
-        margin: 0 auto;
 
-   }
+.your_order {
+    background-color: #7A3145;
+    margin: 0 auto;
+    }
+
+
    .your_order_title{
 font-size: 64px;
 font-style: normal;

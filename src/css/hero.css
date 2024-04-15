@@ -6,6 +6,7 @@
     background-position: bottom;
     height: 812px;
     width: 100%;
+
 }
 
 /* -----------------RETINA 2X MOBILE BACKGRAUND-IMAGE--------------------- */
@@ -33,7 +34,7 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-    padding-top: 100px;
+    padding-top: 48px;
 }
 
 .hero-text {
@@ -54,6 +55,7 @@
 /* -----------------TABLET VERSION--------------------- */
 @media screen and (min-width: 768px) {
     .hero {
+        
         background-image: url(../img/hero/hero-tablet-1x.jpg);
         background-size: 768px 539px;
         height: 1024px;
@@ -66,7 +68,7 @@
 
     .hero-title {
         font-size: 76px;
-        padding-top: 122px;
+        padding-top: 50px;
 
     }
 
@@ -98,13 +100,15 @@
     }
 
     .main-text {
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center; */
+        /* align-items: center; */
         max-width: 502px;
         gap: 128px;
         height: 800px;
     }
-
+.hero-title{
+        padding-top: 238px;
+}
     .hero-text {
     font-weight: 500;
     font-size: 16px;

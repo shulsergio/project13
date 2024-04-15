@@ -44,15 +44,7 @@ line-height: 0;
 /* ---dropmenu---- */
 .backdrop {
     width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position:fixed;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(20, 20, 20, 0.4),
-        rgba(20, 20, 20, 0.4)
-      );
+  min-height: 1000px;
 
       opacity: 0;
       visibility: none;
@@ -124,6 +116,8 @@ line-height: 0;
     letter-spacing: -0.02em;
     text-align: center;
 
+    display:block;
+
     background-color: transparent;
     color: #FBFBFB;
 
@@ -192,7 +186,16 @@ line-height: 0;
 }
 
 @media screen and (min-width: 768px) {
- .logo {
+ 
+    .backdrop {
+        display: none;
+    }
+
+    .backdrop.is-open {
+        display: none;
+    }
+ 
+    .logo {
     display: none;
 }
 
@@ -206,6 +209,26 @@ line-height: 0;
 
 .header-container {
     /* padding: 32px 32px 50px; */
+    position: relative;
+}
+
+.backdrop-tab {
+    width: 100%;
+    min-height: 1000px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(20, 20, 20, 0.4);
+z-index: 1;
+      opacity: 0;
+      visibility: none;
+    pointer-events: none;
+}
+
+.backdrop-tab.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .menu-btn-wrap {
@@ -219,6 +242,9 @@ line-height: 0;
 
 .menu-icon-big {
     stroke: #FBFBFB;
+}
+.backdrop {
+
 }
 
 .drop-menu {

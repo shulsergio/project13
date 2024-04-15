@@ -67,11 +67,11 @@ line-height: 0;
     justify-content: space-between;
     align-items: center; }
 
-/* .backdrop.is-open {
+.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-  } */
+  }
 
 .close-btn {
     background-color: transparent;
@@ -159,7 +159,7 @@ line-height: 0;
     display: block;
     margin-bottom: 40px;
     
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-btn-shop:hover,
@@ -190,14 +190,6 @@ line-height: 0;
 }
 
 @media screen and (min-width: 768px) {
- 
-    /* .backdrop {
-        display: none;
-    } */
-
-    .backdrop.is-open {
-        display: none;
-    }
  
     .logo {
     display: none;
@@ -283,6 +275,14 @@ line-height: 0;
 }
 
 .backdrop {
+    display: none;
+}
+
+.backdrop.is-open {
+    display: none;
+}
+
+.drop-menu {
     display: none;
 }
 

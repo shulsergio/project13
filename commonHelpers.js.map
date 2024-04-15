@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"commonHelpers.js","sources":["../src/main.js"],"sourcesContent":["const a = 1;\nconst b = 2;\nconst c = a + b;\nconsole.log(c);\n"],"names":["a","b","c"],"mappings":"ssBAAA,MAAMA,EAAI,EACJC,EAAI,EACJC,EAAIF,EAAIC,EACd,QAAQ,IAAIC,CAAC"}

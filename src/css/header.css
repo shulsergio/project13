@@ -44,10 +44,14 @@ line-height: 0;
 /* ---dropmenu---- */
 .backdrop {
     width: 100%;
-  min-height: 1000px;
+ height: 100%;
+ position:fixed;
+ top: 0;
+ left: 0;
+ background-color: rgba(20, 20, 20, 0.4);
 
-      opacity: 0;
-      visibility: none;
+    opacity: 0;
+    visibility: hidden;
     pointer-events: none;
 }
 
@@ -63,11 +67,11 @@ line-height: 0;
     justify-content: space-between;
     align-items: center; }
 
-.backdrop.is-open {
+/* .backdrop.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-  }
+  } */
 
 .close-btn {
     background-color: transparent;
@@ -187,9 +191,9 @@ line-height: 0;
 
 @media screen and (min-width: 768px) {
  
-    .backdrop {
+    /* .backdrop {
         display: none;
-    }
+    } */
 
     .backdrop.is-open {
         display: none;
@@ -212,25 +216,6 @@ line-height: 0;
     position: relative;
 }
 
-.backdrop-tab {
-    width: 100%;
-    min-height: 1000px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(20, 20, 20, 0.4);
-z-index: 1;
-      opacity: 0;
-      visibility: none;
-    pointer-events: none;
-}
-
-.backdrop-tab.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
-
 .menu-btn-wrap {
     display: none;
 }
@@ -243,9 +228,7 @@ z-index: 1;
 .menu-icon-big {
     stroke: #FBFBFB;
 }
-.backdrop {
 
-}
 
 .drop-menu {
     background-color: #7A3145;
@@ -297,6 +280,10 @@ z-index: 1;
         background-color: transparent;
         position: relative;
         width: 100%;
+}
+
+.backdrop {
+    display: none;
 }
 
 .logo-desk {

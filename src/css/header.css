@@ -270,6 +270,8 @@ line-height: 0;
         background-color: transparent;
         position: relative;
         width: 100%;
+        padding-top: 0;
+    
 }
 
 .backdrop {

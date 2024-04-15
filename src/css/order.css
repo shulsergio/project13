@@ -118,6 +118,7 @@ letter-spacing: -0.28px;
 }
 
 .textaria_comment{
+    resize: none;
     display: block;
     border-radius: 15px;
 border: 1px solid rgba(20, 20, 20, 0.20);

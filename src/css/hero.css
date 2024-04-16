@@ -98,6 +98,9 @@
         height: 800px;
         background-position: right;
     }
+        .container{
+            padding: 0 100px;
+        }
 
     .main-text {
         /* justify-content: center; */

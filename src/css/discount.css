@@ -1,23 +1,11 @@
-.section-discount{
-
-}
-
 .discount-container {
-    position: relative;
-    width: 375px;
-    min-height: 469px;
+    max-width: 375px;
     background-color: #fbfbfb;
-
-   
+    padding: 0 10px;
 }
 .discount-green-container {
-    position: absolute;
-    top: 80px;
-    left: 10px;
-    background-color: #576f35;
-    border-radius: 12px;
-    width: 355px;
-    height: 102px;
+    max-width: 355px;
+
 }
 
 .visually-hidden {
@@ -40,35 +28,45 @@
         letter-spacing: -0.01em;
         text-transform: uppercase;
         color: #141414;
-        padding-left: 10px;
-        padding-top: 3px;
+        /* padding-left: 10px;
+        padding-top: 3px; */
                
 }
 
 .text-discount-green {
     display: block;
     color: #fbfbfb;
+    background-color: #576f35;
+        border-radius: 12px;
+padding-left: 5px;
+
 }
 
 @media screen and (min-width: 768px) {
+
 .discount-container {
-        min-width: 768px;
-        /* min-height: 488px; */
+    width: 768px;
+    padding: 0 16px;
+
 
     }
    
         .text-discount {
+width: 704px;
         font-size: 64px;
         line-height: 1.09;
         padding-left: 16px;
-        padding-top: 8px;
+        /* padding-top: 8px; */
        
     }
+
+.text-discount-green {
+    padding-left: 16px;
+}
+
      .discount-green-container {
-            width: 736px;
-            height: 86px;
-            /* top: 100px; */
-            left: 16px;
+            max-width: 736px;
+
     }
 }
    
@@ -76,7 +74,7 @@
 @media only screen and (min-width: 1280px) {
 .discount-container {
     min-width: 1280px;
-    /* min-height: 440px; */
+    padding: 0 100px;
 
 }
     .text-discount {
@@ -87,7 +85,7 @@ width: 1067px;
 }
     .discount-green-container {
     width: 808px;
-    left: 100px;
+
 }
     .text-discount-green {
         display: inline;

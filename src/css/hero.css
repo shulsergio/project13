@@ -103,8 +103,7 @@
         }
 
     .main-text {
-        /* justify-content: center; */
-        /* align-items: center; */
+
         max-width: 502px;
         gap: 128px;
         height: 800px;

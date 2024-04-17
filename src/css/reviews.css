@@ -36,6 +36,14 @@
     padding: 20px 16px 38px;
     max-width: 335px;
 }
+.customers-item:hover,
+.customers-item:focus{
+    box-shadow: 0 2px 10px 0 rgba(46, 47, 66, 0.08),
+    0 1px 10px 0 rgba(46, 47, 66, 0.16),
+    0 1px 10px 0 rgba(46, 47, 66, 0.08);
+}
+
+
 
 .victoria-hidden {
     display: none;

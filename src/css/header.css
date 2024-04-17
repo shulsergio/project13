@@ -43,6 +43,7 @@ line-height: 0;
 
 /* ---dropmenu---- */
 .backdrop {
+
     width: 100%;
  height: 100%;
  position:fixed;
@@ -110,7 +111,6 @@ line-height: 0;
 .navigation-item-btn {
     border: 1px solid rgba(251, 251, 251, 0.4);
     border-radius: 12px;
-
     padding: 12px 16px;
 
     min-width: 115px;
@@ -140,6 +140,8 @@ line-height: 0;
 }
 
 .menu-btn-shop {
+    padding: 16px 32px;
+text-align: center;
     border-radius: 30px;
     border: 1px solid rgba(251, 251, 251, 0.2);
 
@@ -355,24 +357,20 @@ left: 691px;
 }
 
 .menu-btn-desk {
-
     border-radius: 30px;
     border: none;
-
     min-width: 155px;
     min-height: 52px;
-
+padding: 16px 32px;
+    text-align: center;
     font-weight: 600;
     font-size: 18px;
     line-height: 111%;
     letter-spacing: -0.01em;
     text-transform: uppercase;
-
     color: #FBFBFB;
     background-color: #7A3145;
-
     margin-left: auto;
-
     display: block;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 

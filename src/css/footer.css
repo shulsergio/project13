@@ -2,7 +2,7 @@ a {
     cursor: pointer;
 }
 .one-footer {
-    background-color: #7A3145;
+        background-color: #7A3145;
 }
 
 .our {
@@ -57,14 +57,20 @@ a {
     line-height: 28px;
     letter-spacing: -0.01em;
     color: #fbfbfb;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.foot-link:hover,
+.foot-link:focus {
+    color: #b66f82;}
+
+
 
 .footer-wrap-address {
     margin-bottom: 80px;
 
 }
 
-.footer-address {}
 
 .footer-address-list {
     display: flex;
@@ -74,6 +80,8 @@ a {
     gap: 14px;
 
 }
+
+
 
 .footer-address-link {
     max-width: 179px;
@@ -87,7 +95,17 @@ a {
     letter-spacing: -0.01em;
     color: #fbfbfb;
     font-style: normal;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+.foot-address:hover,
+.foot-address:focus {
+    color: #b66f82;
+}
+
+
+
 
 .footer-wrap-policy {
     display: flex;

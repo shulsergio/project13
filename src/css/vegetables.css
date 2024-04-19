@@ -79,6 +79,32 @@ max-width: 375px;
 .vegetables-items:hover .vegetables-subtext {
   font-weight: 700;
 }
+
+.img-container {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.img-container::after {
+  position: absolute;
+top: -15%;
+      left: 40%;
+      padding: 10px;
+border-radius: 10px;
+content: attr(description);
+  font-weight: 400;
+    font-size: 14px;
+      line-height: 1.2;
+        letter-spacing: 0.04em;
+background-color: rgba(80, 80, 80, 0.8);
+color: white;
+width: 69%;
+opacity: 0;
+}
+.img-container:hover::after {
+  opacity: 1;
+}
+
 .vegetables-image{
       transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
